@@ -1,0 +1,65 @@
+body {
+  width: 80%;
+  margin: auto;
+  background: #d6d6c2;
+}
+  
+h1, h2, h3, figcaption {
+  text-align: center;
+}
+figcaption {
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
+img {
+ margin-top: 30px;
+ max-width: 100%;
+ width: 100%;
+ display: block; 
+ height: auto;
+ margin: auto;
+ }
+section {
+  display: flex;
+  display: -webkit - flex;
+  position: relative; 
+  }
+article {
+  background: #ccccb3;
+  box-sizing: border;
+ float: left;
+ clear: both;
+ width:60%;
+ padding: 20px 20px 58px 20px; 
+ margin-top: 60px; 
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ border: 1px solid rgba(84, 78, 66, 0.2);
+}
+
+div .blockquote {
+  box-sizing: border;
+  flex-wrap: flex;
+ -webkit-flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-end;
+ clear: both; 
+ width: 25%;
+ margin-right: auto; 
+ margin-top: 40px;
+}
+.blockquote1, .blockquote2, .blockquote3, .blockquote4, .blockquote5 {
+font-family: Tangerine, cursive; 
+background: #ccccb3;
+padding: 20px;   
+border: 1px solid rgba(84, 78, 66, 0.2);
+margin-right: auto; 
+}
+.blockquote2, .blockquote3, .blockquote4,.blockquote5  {
+margin-top: 160px; 
+}
+footer {
+  margin-left:50px;
+}
